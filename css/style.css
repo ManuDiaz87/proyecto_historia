@@ -1,0 +1,221 @@
+body {
+    font-family: Verdana, Geneva, Tahoma;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+
+header{
+    /*
+    display: flex;
+    justify-content: space-between;
+    background-color:burlywood;
+    align-items: center;
+    padding: 10px;
+    min-height: 50px;
+    */
+    background-color:burlywood;
+}
+
+header .listado-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+header .listado-menu li{
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a {
+    font-weight: 600;
+}
+
+nav a:hover {
+    color:snow
+}
+
+.logo-img {
+    height: 40px;
+}
+
+
+
+
+.seccion-historia .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-historia .texto-historia, 
+.seccion-historia .img-historia{
+    width: 48%;
+}
+.seccion-historia .img-historia img{
+    width: 100%;
+}
+
+/* SECCION FORM */
+.seccion-form form{
+    text-align: center;
+    background: burlywood;
+    margin: auto;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+.seccion-form form .grupo-inputs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.seccion-form form .grupo-inputs input,
+.seccion-form form .grupo-inputs textarea{
+    width: 50%;
+    text-align: center;
+    margin-top: 8px;
+}
+.seccion-form form .btn-enviar{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+footer {
+    background-color: burlywood;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+footer p{
+    margin: 0;
+}
+footer .contenedor{
+    display: flex;
+    flex-direction: column;
+}
+footer .contenedor a:hover{
+    opacity: .6;
+}
+
+/* ESPARTANOS */
+
+.seccion-introduccion{
+    text-align: center;
+    background: url(../img/espartano-fondo-ganadora.avif);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.seccion-introduccion .contenedor-texto{
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    background-color: rgba(222, 184, 135, 0.795) ;
+   /* background-color: #ffffffe0; */
+    padding: 1rem;
+}
+.seccion-guion{
+    text-align: center;
+    padding: 3rem 0;
+}
+.seccion-guion article{
+    margin: 2rem 0;
+}
+.seccion-guion p{
+    margin-bottom: 2rem;
+}
+.seccion-guion img{
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    transition: all .3s ease;
+}
+.seccion-guion img:hover{
+    transform: scale(1.1);
+}
+@media (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/* SAMURAIS */
+
+.introduccion-samurais{
+    text-align: center;
+    background: url(../img/samurai-fondos.avif);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.introduccion-samurais .contenedor-texto-samurais{
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    background-color: rgba(222, 184, 135, 0.795) ;
+   /* background-color: #ffffffe0; */
+    padding: 1rem;
+}
+
+/* VIKINGOS */
+
+.introduccion-vikingos{
+    text-align: center;
+    background: url(../img/fondo-vikingos.jpeg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.introduccion-vikingos .contenedor-texto-vikingos{
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    background-color: rgba(222, 184, 135, 0.795) ;
+   /* background-color: #ffffffe0; */
+    padding: 1rem;
+}
+
+/* Gladiadores */
+.introduccion-gladiadores{
+    text-align: center;
+    background: url(../img/gladiadores-fondo.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.introduccion-gladiadores .contenedor-texto-gladiadores{
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    background-color: rgba(222, 184, 135, 0.795) ;
+   /* background-color: #ffffffe0; */
+    padding: 1rem;
+}
